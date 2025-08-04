@@ -1,10 +1,10 @@
-# DuckDB Extension Template
-This repository contains a template for creating a DuckDB extension. The main goal of this template is to allow users to easily develop, test and distribute their own DuckDB extension. The main branch of the template is always based on the latest stable DuckDB allowing you to try out your extension right away.
+# Duck Sharing Extension
+This repository contains a community extension for using the Delta Sharing protocol with DuckDB.
 
 ## Getting started
 First step to getting started is to create your own repo from this template by clicking `Use this template`. Then clone your new repository using 
 ```sh
-git clone --recurse-submodules https://github.com/<you>/<your-new-extension-repo>.git
+git clone --recurse-submodules https://github.com/goodwillpunning/duck_sharing.git
 ```
 Note that `--recurse-submodules` will ensure DuckDB is pulled which is required to build the extension.
 
